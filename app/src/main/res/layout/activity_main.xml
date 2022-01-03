@@ -38,4 +38,17 @@
         android:layout_height="wrap_content"
         android:text="위에 입력한 내용을, 토스트로" />
 
+    <Button
+        android:id="@+id/btnMessageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위에 입력한 내용을, 텍스트뷰에 반영" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="입력된 메세지가 나타납니다." />
+
 </LinearLayout>
