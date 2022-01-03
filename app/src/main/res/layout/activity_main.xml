@@ -26,12 +26,14 @@
         android:text="메세지 입력" />
 
     <EditText
+        android:id="@+id/edtMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="아무 말이나 입력"
         android:singleLine="true"/>
 
     <Button
+        android:id="@+id/btnMessageToast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="위에 입력한 내용을, 토스트로" />

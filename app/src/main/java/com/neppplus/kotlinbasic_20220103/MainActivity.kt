@@ -29,5 +29,12 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnMessageToast.setOnClickListener {
+
+            Toast.makeText(this, "~~ 입력됨", Toast.LENGTH_SHORT).show()
+
+        }
+
+
     }
 }
